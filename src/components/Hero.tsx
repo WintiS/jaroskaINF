@@ -26,13 +26,13 @@ export const Hero: React.FC = () => {
           <div className="flex gap-6 justify-center animate-slide-up">
             <a  
               href="#pro-uchazece" 
-              className="btn btn-lg px-6 py-3 bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border-2 border-white/50 hover:border-white transition-all duration-300 rounded-md"
+              className="btn btn-lg px-6 py-4 bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border-2 border-white/30 hover:border-white/50 transition-all duration-300 rounded-md"
             >
               Pro uchazeče
             </a>
             <a 
               href="#pro-zaky" 
-              className="btn btn-lg px-6 py-3 bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border-2 border-white/50 hover:border-white transition-all duration-300 rounded-md"
+              className="btn btn-lg px-6 py-4 bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border-2 border-white/30 hover:border-white/50 transition-all duration-300 rounded-md"
             >
               Pro žáky
             </a>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { AnimatedSection } from './AnimatedSection';
 
 interface Feature {
   title: string;
@@ -31,19 +32,20 @@ const features: Feature[] = [
 
 export const WhyChooseUs: React.FC = () => {
   return (
-    <section className="py-40 bg-white">
+    <section className="py-40 bg-white" id="pro-uchazece">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">Proč si vybrat nás?</h2>
+        <AnimatedSection>
+          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">Proč si vybrat nás?</h2>
+        </AnimatedSection>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
-            <div
-              key={index}
-              className="bg-red-700 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow text-white"
-            >
-              <div className="text-4xl mb-4">{feature.icon}</div>
-              <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-              <p className="text-red-50">{feature.description}</p>
-            </div>
+            <AnimatedSection key={index} delay={index * 200}>
+              <div className="bg-red-700 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow text-white h-[280px] flex flex-col">
+                <div className="text-4xl mb-4">{feature.icon}</div>
+                <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
+                <p className="text-red-50 flex-grow">{feature.description}</p>
+              </div>
+            </AnimatedSection>
           ))}
         </div>
       </div>
