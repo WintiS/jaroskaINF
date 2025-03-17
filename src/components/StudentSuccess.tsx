@@ -81,7 +81,7 @@ export const StudentSuccess: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {stats.map((stat, index) => (
             <AnimatedSection key={index} delay={index * 200}>
-              <div className="text-center p-6 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+              <div className="text-center p-6 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors md:h-[155px]">
                 <div className="text-5xl font-bold mb-2 text-red-600">
                   {counts[index]}{stat.suffix}
                 </div>

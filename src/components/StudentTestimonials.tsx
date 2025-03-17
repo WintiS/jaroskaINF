@@ -39,7 +39,7 @@ export const StudentTestimonials: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <AnimatedSection key={index} delay={index * 200}>
-              <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+              <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow md:h-[200px]">
                 <div className="flex items-center mb-4">
                   <img
                     src={testimonial.image}

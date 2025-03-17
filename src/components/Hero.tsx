@@ -17,22 +17,22 @@ export const Hero: React.FC = () => {
       {/* Content */}
       <div className="hero-content text-center text-white relative z-20">
         <div className="max-w-3xl">
-          <h1 className="text-7xl font-bold mb-6 animate-fade-in">
+          <h1 className="text-4xl md:text-7xl font-bold mb-6 animate-fade-in">
             Gymnázium Jaroška
           </h1>
-          <p className="text-xl mb-8 animate-fade-in">
+          <p className="text-lg md:text-xl mb-8 animate-fade-in">
             Vzdělávání pro budoucnost s tradicí od roku 1898
           </p>
           <div className="flex gap-6 justify-center animate-slide-up">
             <a  
               href="#pro-uchazece" 
-              className="btn btn-lg px-6 py-4 bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border-2 border-white/30 hover:border-white/50 transition-all duration-300 rounded-md"
+              className="btn btn-lg px-7 py-4 bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border-2 border-white/30 hover:border-white/50 transition-all duration-300 rounded-md"
             >
               Pro uchazeče
             </a>
             <a 
               href="#pro-zaky" 
-              className="btn btn-lg px-6 py-4 bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border-2 border-white/30 hover:border-white/50 transition-all duration-300 rounded-md"
+              className="btn btn-lg px-7 py-4 bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border-2 border-white/30 hover:border-white/50 transition-all duration-300 rounded-md"
             >
               Pro žáky
             </a>

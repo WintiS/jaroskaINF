@@ -40,10 +40,10 @@ export const WhyChooseUs: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <AnimatedSection key={index} delay={index * 200}>
-              <div className="bg-red-700 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow text-white h-[280px] flex flex-col">
+              <div className="bg-red-700 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow text-white md:h-[240px] md:flex md:flex-col md:justify-center">
                 <div className="text-4xl mb-4">{feature.icon}</div>
                 <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-                <p className="text-red-50 flex-grow">{feature.description}</p>
+                <p className="text-red-50">{feature.description}</p>
               </div>
             </AnimatedSection>
           ))}

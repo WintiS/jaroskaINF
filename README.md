@@ -1,10 +1,9 @@
 # Gymnázium Jaroška Website
 
-Moderní webové stránky pro Gymnázium Jaroška vytvořené pomocí Qwik.js a Three.js.
+Moderní webové stránky pro Gymnázium Jaroška vytvořené pomocí Qwik.js a Bootstrap.
 
 ## Funkce
 
-- Interaktivní 3D model budovy školy
 - Animované sekce s informacemi o škole
 - Responzivní design
 - Plynulé scrollování a animace
@@ -41,15 +40,7 @@ npm run dev
 
 4. Otevřete [http://localhost:5173](http://localhost:5173) ve vašem prohlížeči.
 
-## Build pro produkci
 
-Pro vytvoření produkční verze spusťte:
-
-```bash
-npm run build
-```
-
-Produkční build bude dostupný v adresáři `dist`.
 
 ## Struktura projektu
 
@@ -67,6 +58,3 @@ src/
   └── global.css
 ```
 
-## Licence
-
-MIT 

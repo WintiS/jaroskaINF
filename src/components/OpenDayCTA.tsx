@@ -29,7 +29,7 @@ export const OpenDayCTA: React.FC = () => {
           <AnimatedSection delay={400}>
             <div className="bg-red-700 p-8 rounded-lg text-white shadow-lg relative overflow-hidden">
               <h3 className="text-2xl font-semibold mb-4">Kdy a kde?</h3>
-              <p className="text-lg mb-4">15. listopadu 2024, 9:00 - 17:00</p>
+              <p className="text-lg mb-4">15. listopadu 2025, 9:00 - 17:00</p>
               <p className="text-lg mb-6">Gymnázium Jaroška, Brno</p>
               
               <div className="relative h-[60px]">
