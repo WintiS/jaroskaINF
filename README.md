@@ -11,10 +11,26 @@ Moderní webové stránky pro Gymnázium Jaroška vytvořené pomocí Qwik.js a 
 - Přehled úspěchů studentů
 - Call-to-action pro den otevřených dveří
 
+## Struktura projektu
+
+```
+src/
+  ├── components/
+  │   ├── Hero.tsx
+  │   ├── WhyChooseUs.tsx
+  │   ├── StudentTestimonials.tsx
+  │   ├── StudentSuccess.tsx
+  │   ├── OpenDayCTA.tsx
+  │   └── SchoolBuilding.tsx
+  ├── routes/
+  │   └── index.tsx
+  └── global.css
+```
+
 ## Technologie
 
 - Qwik.js
-- Three.js
+- Bootstrap
 - React Three Fiber
 - Framer Motion
 - GSAP
@@ -42,19 +58,4 @@ npm run dev
 
 
 
-## Struktura projektu
-
-```
-src/
-  ├── components/
-  │   ├── Hero.tsx
-  │   ├── WhyChooseUs.tsx
-  │   ├── StudentTestimonials.tsx
-  │   ├── StudentSuccess.tsx
-  │   ├── OpenDayCTA.tsx
-  │   └── SchoolBuilding.tsx
-  ├── routes/
-  │   └── index.tsx
-  └── global.css
-```
 
