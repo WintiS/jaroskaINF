@@ -38,23 +38,23 @@ src/
 
 ## Instalace
 
-1. Klonujte repozitář:
+1. Clone repository:
 ```bash
 git clone https://github.com/yourusername/jaroska-website.git
 cd jaroska-website
 ```
 
-2. Nainstalujte závislosti:
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-3. Spusťte vývojový server:
+3. Run dev server:
 ```bash
 npm run dev
 ```
 
-4. Otevřete [http://localhost:5173](http://localhost:5173) ve vašem prohlížeči.
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 
 
